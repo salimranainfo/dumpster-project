@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Metropolis-Regular.otf');
+}
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./fonts/Metropolis-RegularItalic.otf');
+}
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/Metropolis-Medium.otf');
+}
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: italic;
+  font-weight: 500;
+  src: url('./fonts/Metropolis-MediumItalic.otf');
+}
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/Metropolis-SemiBold.otf');
+}
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: italic;
+  font-weight: 600;
+  src: url('./fonts/Metropolis-SemiBoldItalic.otf');
+}
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Metropolis-Bold.otf');
+}
+@font-face {
+  font-family: 'Avenir Next';
+  font-style: italic;
+  font-weight: 700;
+  src: url('./fonts/Metropolis-BoldItalic.otf');
+}

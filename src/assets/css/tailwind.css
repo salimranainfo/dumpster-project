@@ -1,0 +1,21 @@
+@import url('./fonts.css');
+
+@tailwind base;
+@tailwind components;
+
+html,
+body {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 500;
+  color: #333333;
+}
+
+.btn-yellow-bg {
+  @apply inline-block px-4 py-2 text-sm font-semibold bg-yellow-primary border-2 border-yellow-primary shadow-custom hover:bg-white  transition-all duration-150 ease-in-out;
+}
+
+.btn-yellow-border {
+  @apply inline-block px-4 py-2 text-sm font-semibold bg-white border-2 border-yellow-primary shadow-custom hover:bg-yellow-primary  transition-all duration-150 ease-in-out;
+}
+
+@tailwind utilities;
