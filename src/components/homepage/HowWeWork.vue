@@ -1,5 +1,8 @@
 <template>
-  <div id="how-we-work" class="max-w-[1160px] mt-20 mx-auto pt-36 pb-10">
+  <div
+    id="how-we-work"
+    class="max-w-[1160px] sm:mt-20 mx-auto pt-36 sm:pb-10 px-4 xl:px-0"
+  >
     <div>
       <h2 class="text-5xl font-semibold">How we work</h2>
       <p class="mt-6 text-lg max-w-[30rem]">
@@ -8,16 +11,18 @@
       </p>
     </div>
 
-    <div class="flex justify-between items-stretch mt-16 space-x-4">
+    <div
+      class="flex flex-wrap xl:flex-nowrap px-12 justify-center xl:justify-between items-stretch mt-16 sm:space-x-6 space-y-6 xl:space-y-0 xl:space-x-4"
+    >
       <div
         v-for="(item, i) in steps"
         :key="i"
-        class="w-full flex justify-center items-center flex-col rounded-md shadow-custom-large py-10"
+        class="w-full sm:w-1/3 xl:w-full flex justify-center items-center flex-col rounded-md shadow-custom-large py-10"
       >
         <div class="flex justify-center items-center">
           <img :src="item.icon" alt="" class="max-h-[6rem]" />
         </div>
-        <div class="px-28">
+        <div class="px-16 xl:px-28">
           <h3 class="font-bold text-3xl mt-6">{{ item.title }}</h3>
           <p class="mt-4 text-sm">{{ item.details }}</p>
         </div>

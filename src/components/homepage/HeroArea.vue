@@ -1,18 +1,30 @@
 <template>
   <div
-    class="max-w-[1160px] mx-auto pt-28 pb-10 flex justify-between items-center"
+    class="max-w-[1160px] mx-auto pt-12 sm:pt-28 sm:pb-10 sm:flex justify-between items-center px-4 xl:px-0"
   >
-    <div class="w-7/12">
-      <h1 class="text-6xl leading-[4.5rem] font-semibold">
+    <div class="sm:w-7/12">
+      <h1
+        class="text-6xl sm:text-5xl xl:text-6xl leading-[4.5rem] font-semibold"
+      >
         Need a dumpster? Here we are.
       </h1>
 
-      <p class="mt-6 w-3/4 text-xl">
+      <p class="mt-6 sm:w-3/4 text-xl">
         Lorem ipsum, dolor sit amet consectetur adipiscing elitLorem ipsum,
         dolor sit amet consect.
       </p>
 
-      <div class="flex justify-start items-center mt-16 space-x-6">
+      <div class="w-full sm:hidden pt-10">
+        <img
+          src="/images/truck.png"
+          alt="Dumpster Truck"
+          class="transform translate-x-[4rem]"
+        />
+      </div>
+
+      <div
+        class="flex flex-col xl:flex-row justify-start w-2/3 xl:w-full xl:items-center mt-16 space-y-6 xl:space-y-0 xl:space-x-6"
+      >
         <button class="btn-yellow-bg flex justify-center items-center">
           <span>
             <DumpsterSvg class=""></DumpsterSvg>
@@ -33,11 +45,11 @@
       </div>
     </div>
 
-    <div class="w-5/12">
+    <div class="w-5/12 hidden sm:block">
       <img
         src="/images/truck.png"
         alt="Dumpster Truck"
-        class="transform scale-150 translate-x-[10rem]"
+        class="transform scale-150 xl:translate-x-[10rem]"
       />
     </div>
   </div>
