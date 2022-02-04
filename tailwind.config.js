@@ -9,6 +9,8 @@ module.exports = {
       },
       boxShadow: {
         custom: '3px 3px rgba(0, 0, 0, 0.75)',
+        'custom-large': '7px 7px rgba(0, 0, 0, 0.75)',
+        footer: '0px 0px 20px 5px rgba(0, 0, 0, 0.1)',
       },
     },
   },

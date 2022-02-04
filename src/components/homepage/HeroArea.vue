@@ -1,7 +1,9 @@
 <template>
-  <div class="max-w-[1160px] mx-auto py-28 flex justify-between items-center">
+  <div
+    class="max-w-[1160px] mx-auto pt-28 pb-10 flex justify-between items-center"
+  >
     <div class="w-7/12">
-      <h1 class="text-7xl leading-[5.5rem] font-semibold">
+      <h1 class="text-6xl leading-[4.5rem] font-semibold">
         Need a dumpster? Here we are.
       </h1>
 

@@ -1,7 +1,10 @@
 <template>
   <div class="w-full overflow-hidden">
     <Header></Header>
-    <router-view />
+    <main class="pt-28">
+      <router-view />
+    </main>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -9,9 +12,10 @@
 import { defineComponent } from 'vue'
 
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default defineComponent({
-  components: { Header },
+  components: { Header, Footer },
 
   setup() {
     return {}
