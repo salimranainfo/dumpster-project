@@ -44,7 +44,18 @@
         <a href="#how-we-work">How we work</a>
         <a href="#our-dumpsters">Our dumpsters</a>
         <a href="#testimonials">Testimonials</a>
-        <router-link to="#!" class="btn-yellow-bg px-8">ORDER NOW</router-link>
+        <a
+          href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+          target="_blank"
+          class="btn-yellow-bg px-8"
+          >ORDER NOW</a
+        >
+        <a
+          href="https://app.smartsheet.com/b/form/7883fbf73cb740329cedb224958d5171"
+          target="_blank"
+          class="btn-yellow-bg px-8"
+          >Partner With Us</a
+        >
       </nav>
 
       <!-- Mobile Menu -->
@@ -59,8 +70,17 @@
             <a href="#how-we-work" @click="showMenu = false">How we work</a>
             <a href="#our-dumpsters" @click="showMenu = false">Our dumpsters</a>
             <a href="#testimonials" @click="showMenu = false">Testimonials</a>
-            <router-link to="#!" class="btn-yellow-bg px-8"
-              >ORDER NOW</router-link
+            <a
+              href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+              target="_blank"
+              class="btn-yellow-bg px-8"
+              >ORDER NOW</a
+            >
+            <a
+              href="https://app.smartsheet.com/b/form/7883fbf73cb740329cedb224958d5171"
+              target="_blank"
+              class="btn-yellow-bg px-8"
+              >Partner With Us</a
             >
           </nav>
 

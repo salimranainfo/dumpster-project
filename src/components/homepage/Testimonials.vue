@@ -3,10 +3,10 @@
     <div class="max-w-[1160px] mx-auto px-4 xl:px-0">
       <div class="text-white">
         <h1 class="text-5xl font-bold">Testimonials</h1>
-        <p class="text-lg mt-6 max-w-[30rem]">
+        <!-- <p class="text-lg mt-6 max-w-[30rem]">
           Lorem ipsum, dolor sit amet consectetur adipiscing elitLorem ipsum,
           dolor sit amet consect.
-        </p>
+        </p> -->
       </div>
 
       <!-- Mobile layout -->

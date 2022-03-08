@@ -6,8 +6,8 @@
     <div>
       <h1 class="text-5xl font-bold">Our Dumpsters</h1>
       <p class="text-lg mt-6 max-w-[30rem]">
-        Lorem ipsum, dolor sit amet consectetur adipiscing elitLorem ipsum,
-        dolor sit amet consect.
+        Below are a variety of dumpster sizes based upon the most commonly used
+        sizes for a residential clean up.
       </p>
     </div>
 
@@ -71,23 +71,23 @@ export default defineComponent({
   setup() {
     const dumpsters = [
       {
-        title: 'Dumpster 23',
-        details: 'Lorem ipsum sit amet dolor, consectur.',
+        title: '10 Cubic Yards',
+        details: '3 pick-up truck loads',
         image: '/images/dumpsters.png',
       },
       {
-        title: 'Dumpster 24',
-        details: 'Lorem ipsum sit amet dolor, consectur.',
+        title: '15 Cubic Yards',
+        details: '4-5 pick-up truck loads',
         image: '/images/dumpsters.png',
       },
       {
-        title: 'Dumpster 25',
-        details: 'Lorem ipsum sit amet dolor, consectur.',
+        title: '20 Cubic Yards',
+        details: '6-7 pick-up truck loads',
         image: '/images/dumpsters.png',
       },
       {
-        title: 'Dumpster 26',
-        details: 'Lorem ipsum sit amet dolor, consectur.',
+        title: '25 Cub Yards',
+        details: '8-9 pick-up truck loads',
         image: '/images/dumpsters.png',
       },
     ]

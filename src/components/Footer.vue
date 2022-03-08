@@ -9,8 +9,8 @@
         </router-link>
 
         <p class="text-sm max-w-[70%] mt-6">
-          Lorem ipsum, dolor sit amet consectetur adipiscing elitLorem ipsum,
-          dolor sit amet consect.
+          Call or e-mail us for more information on getting a fast and easy
+          dumpster rental, or visit us on social media!
         </p>
 
         <div class="mt-8 flex justify-start items-center space-x-3">
@@ -70,10 +70,21 @@
       <div
         class="w-full flex flex-col justify-start items-center space-y-5 font-semibold text-sm"
       >
-        <router-link to="#!" class="btn-yellow-bg px-8">ORDER NOW</router-link>
-        <router-link to="#!">How we work</router-link>
-        <router-link to="#!">Our dumpsters</router-link>
-        <router-link to="#!">Testimonials</router-link>
+        <a
+          href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+          target="_blank"
+          class="btn-yellow-bg px-8"
+          >ORDER NOW</a
+        >
+        <a
+          href="https://app.smartsheet.com/b/form/7883fbf73cb740329cedb224958d5171"
+          target="_blank"
+          class="btn-yellow-bg px-8"
+          >Partner With Us</a
+        >
+        <a href="#how-we-work">How we work</a>
+        <a href="#our-dumpsters">Our dumpsters</a>
+        <a href="#testimonials">Testimonials</a>
       </div>
 
       <div class="w-full">
@@ -95,7 +106,9 @@
             </svg>
           </span>
           <span>
-            <a href="mailto:hola@swiftydumpster.com">hola@swiftydumpster.com</a>
+            <a href="mailto:hello@swiftydumpster.com"
+              >hello@swiftydumpster.com</a
+            >
           </span>
         </span>
         <span class="text-sm flex justify-start items-center space-x-2 mt-4">
@@ -119,7 +132,7 @@
             <a href="tel:+549874543781">+54 98745 43781</a>
           </span>
         </span>
-        <span class="text-sm flex justify-start items-center space-x-2 mt-4">
+        <!-- <span class="text-sm flex justify-start items-center space-x-2 mt-4">
           <span>
             <svg
               width="32"
@@ -146,7 +159,7 @@
               CABA, Argentina
             </span>
           </span>
-        </span>
+        </span> -->
 
         <div class="mt-16 flex sm:hidden justify-center items-center space-x-3">
           <a href="#!">

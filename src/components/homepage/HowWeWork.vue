@@ -4,7 +4,7 @@
     class="max-w-[1160px] sm:mt-20 mx-auto pt-36 sm:pb-10 px-4 xl:px-0"
   >
     <div>
-      <h2 class="text-5xl font-semibold">How we work</h2>
+      <h2 class="text-5xl font-semibold">Instructions</h2>
       <p class="mt-6 text-lg max-w-[30rem]">
         Lorem ipsum, dolor sit amet consectetur adipiscing elitLorem ipsum,
         dolor sit amet consect.
@@ -38,18 +38,20 @@ export default defineComponent({
   setup() {
     const steps = [
       {
-        title: 'Choose',
-        details: 'Lorem ipsum sit amet dolor, consectur.',
+        title: 'Size',
+        details: 'Choose the size you need for the job you have!',
         icon: '/images/steps/1.svg',
       },
       {
         title: 'Booking',
-        details: 'Lorem ipsum sit amet dolor, consectur.',
+        details:
+          'Put all the details for your dumpster and order it. Dispatch with contact you as soon as possible.',
         icon: '/images/steps/2.svg',
       },
       {
-        title: 'We go',
-        details: 'Lorem ipsum sit amet dolor, consectur.',
+        title: 'Delivery',
+        details:
+          "As soon as dispatch recieves the order and it's filled out correctly, we dispatch the size dumpster, time and location you alloted.",
         icon: '/images/steps/3.svg',
       },
     ]

@@ -6,12 +6,11 @@
       <h1
         class="text-6xl sm:text-5xl xl:text-6xl leading-[4.5rem] font-semibold"
       >
-        Need a dumpster? Here we are.
+        Need a Dumpster? Here we are.
       </h1>
 
       <p class="mt-6 sm:w-3/4 text-xl">
-        Lorem ipsum, dolor sit amet consectetur adipiscing elitLorem ipsum,
-        dolor sit amet consect.
+        Easy booking, simple order and quick delivery. On time, every time.
       </p>
 
       <div class="w-full sm:hidden pt-10">
