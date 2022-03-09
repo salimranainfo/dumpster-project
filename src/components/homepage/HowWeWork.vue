@@ -5,10 +5,10 @@
   >
     <div>
       <h2 class="text-5xl font-semibold">Instructions</h2>
-      <p class="mt-6 text-lg max-w-[30rem]">
+      <!-- <p class="mt-6 text-lg max-w-[30rem]">
         Lorem ipsum, dolor sit amet consectetur adipiscing elitLorem ipsum,
         dolor sit amet consect.
-      </p>
+      </p> -->
     </div>
 
     <div

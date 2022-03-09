@@ -124,19 +124,19 @@ export default defineComponent({
         name: 'Rose Perry',
         designation: 'CEO Juliareque',
         image: '/images/testimonials/testimonial-1.png',
-        details: 'Lorem ipsum sit amet dolor, consectur. Lorem ipsum sit',
+        details: '',
       },
       {
         name: 'Jack Cruise',
         designation: 'CEO Jumping',
         image: '/images/testimonials/testimonial-2.png',
-        details: 'Lorem ipsum sit amet dolor, consectur. Lorem ipsum sit',
+        details: '',
       },
       {
         name: 'Elon Musk',
         designation: 'CEO Easy',
         image: '/images/testimonials/testimonial-3.png',
-        details: 'Lorem ipsum sit amet dolor, consectur. Lorem ipsum sit',
+        details: '',
       },
     ]
 

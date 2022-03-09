@@ -24,7 +24,12 @@
             <div class="max-w-[15rem]">
               <h3 class="font-bold text-3xl mt-6">{{ item.title }}</h3>
               <p class="mt-4 text-sm">{{ item.details }}</p>
-              <button class="btn-yellow-border w-full mt-4">HIRE</button>
+              <a
+                href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+                target="_blank"
+                class="btn-yellow-border inline-block text-center w-full mt-4"
+                >HIRE</a
+              >
             </div>
           </div>
         </div>

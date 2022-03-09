@@ -24,14 +24,18 @@
       <div
         class="flex flex-col xl:flex-row justify-start w-2/3 xl:w-full xl:items-center mt-16 space-y-6 xl:space-y-0 xl:space-x-6"
       >
-        <button class="btn-yellow-bg flex justify-center items-center">
+        <a
+          href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+          target="_blank"
+          class="btn-yellow-bg flex justify-center items-center"
+        >
           <span>
             <DumpsterSvg class=""></DumpsterSvg>
           </span>
           <span>ORDER DUMPSTER</span>
-        </button>
+        </a>
 
-        <button
+        <!-- <button
           class="group btn-yellow-border flex justify-center items-center"
         >
           <span
@@ -40,7 +44,7 @@
             <TruckSvg class="fill-current"></TruckSvg>
           </span>
           <span> ORDER DEBRIS TRUCK </span>
-        </button>
+        </button> -->
       </div>
     </div>
 
@@ -58,10 +62,10 @@
 import { defineComponent } from 'vue'
 
 import DumpsterSvg from '../../assets/svgs/dumpster.svg'
-import TruckSvg from '@/assets/svgs/truck.svg'
+// import TruckSvg from '@/assets/svgs/truck.svg'
 
 export default defineComponent({
-  components: { DumpsterSvg, TruckSvg },
+  components: { DumpsterSvg },
 
   setup() {
     return {}
