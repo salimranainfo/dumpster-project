@@ -17,10 +17,10 @@
       <div
         v-for="(item, i) in steps"
         :key="i"
-        class="w-full sm:w-1/3 xl:w-full flex justify-center items-center flex-col rounded-md shadow-custom-large py-10"
+        class="w-full sm:w-1/3 xl:w-full flex justify-start items-center flex-col rounded-md shadow-custom-large py-10"
       >
-        <div class="flex justify-center items-center">
-          <img :src="item.icon" alt="" class="max-h-[6rem]" />
+        <div class="flex justify-center items-center h-[6rem]">
+          <img :src="item.icon" alt="" class="h-[6rem]" />
         </div>
         <div class="px-16 xl:px-28">
           <h3 class="font-bold text-3xl mt-6">{{ item.title }}</h3>
@@ -39,19 +39,17 @@ export default defineComponent({
     const steps = [
       {
         title: 'Size',
-        details: 'Choose the size you need for the job you have!',
+        details: 'Choose the right size for your project',
         icon: '/images/steps/1.svg',
       },
       {
         title: 'Booking',
-        details:
-          'Put all the details for your dumpster and order it. Dispatch with contact you as soon as possible.',
+        details: 'Submit job details',
         icon: '/images/steps/2.svg',
       },
       {
         title: 'Delivery',
-        details:
-          "As soon as dispatch recieves the order and it's filled out correctly, we dispatch the size dumpster, time and location you alloted.",
+        details: 'Order gets confirmed and dispatched your way',
         icon: '/images/steps/3.svg',
       },
     ]

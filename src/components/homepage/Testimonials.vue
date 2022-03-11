@@ -13,18 +13,18 @@
       <div id="splide-testimonials" class="sm:hidden w-full py-16 relative">
         <Splide :options="options">
           <SplideSlide v-for="(item, i) in testimonials" :key="i">
-            <div class="pb-16">
+            <div class="pb-16 h-full">
               <div
-                class="w-full px-8 xl:px-20 py-10 bg-white flex justify-center items-center flex-col rounded-md"
+                class="w-full px-8 h-full xl:px-20 py-10 bg-white flex justify-start items-center flex-col rounded-md"
               >
                 <div class="">
                   <div
-                    class="flex justify-center items-center w-full border h-[5rem] overflow-hidden"
+                    class="flex justify-center items-center w-full h-[5rem] overflow-hidden"
                   >
                     <img
                       :src="item.image"
                       alt=""
-                      class="object-cover object-center"
+                      class="object-cover object-center h-[5rem]"
                     />
                   </div>
                   <div class="">
@@ -65,16 +65,16 @@
         <div
           v-for="(item, i) in testimonials"
           :key="i"
-          class="w-full px-4 xl:px-20 py-10 bg-white flex justify-center items-center flex-col rounded-md"
+          class="w-full px-4 xl:px-20 py-10 bg-white flex justify-start items-center flex-col rounded-md"
         >
           <div class="">
             <div
-              class="flex justify-center items-center w-full border h-[5rem] overflow-hidden"
+              class="flex justify-center items-center w-full h-[5rem] overflow-hidden"
             >
               <img
                 :src="item.image"
                 alt=""
-                class="object-cover object-center"
+                class="object-cover object-center h-[5rem]"
               />
             </div>
             <div class="">
@@ -121,22 +121,25 @@ export default defineComponent({
   setup() {
     const testimonials = [
       {
-        name: 'Rose Perry',
-        designation: 'CEO Juliareque',
+        name: 'Julio Melendez',
+        designation: '',
         image: '/images/testimonials/testimonial-1.png',
-        details: '',
+        details:
+          'From start to finish these guys are setting the bar high in professionalism, punctuality, and great value. I’ve used them multiple times from small to large jobs. They have met my needs in options every time. Won’t use anyone else!',
       },
       {
-        name: 'Jack Cruise',
-        designation: 'CEO Jumping',
+        name: 'Billy Wells',
+        designation: '',
         image: '/images/testimonials/testimonial-2.png',
-        details: '',
+        details:
+          "Excellent service from these guys and the owner who was very responsive to request and follow up. I've had them deliver and pick up loads on the same day as well as on different dates without any issues.",
       },
       {
-        name: 'Elon Musk',
-        designation: 'CEO Easy',
+        name: 'Patrick McGovern',
+        designation: '',
         image: '/images/testimonials/testimonial-3.png',
-        details: '',
+        details:
+          "Have used this company several times for dumpster rental. Prices are reasonable, they're friendly and professional. Would recommend.",
       },
     ]
 

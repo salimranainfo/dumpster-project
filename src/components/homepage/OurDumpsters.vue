@@ -7,7 +7,7 @@
       <h1 class="text-5xl font-bold">Our Dumpsters</h1>
       <p class="text-lg mt-6 max-w-[30rem]">
         Below are a variety of dumpster sizes based upon the most commonly used
-        sizes for a residential clean up.
+        sizes.
       </p>
     </div>
 
@@ -91,8 +91,8 @@ export default defineComponent({
         image: '/images/dumpsters.png',
       },
       {
-        title: '25 Cub Yards',
-        details: '8-9 pick-up truck loads',
+        title: '30 Cub Yards',
+        details: '10-12 pick-up truck loads',
         image: '/images/dumpsters.png',
       },
     ]
