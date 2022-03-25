@@ -25,7 +25,7 @@
               <h3 class="font-bold text-3xl mt-6">{{ item.title }}</h3>
               <p class="mt-4 text-sm">{{ item.details }}</p>
               <a
-                href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+                href="https://app.smartsheet.com/b/form/af553c85a1fd4597bdc0f0d17b836c0b"
                 target="_blank"
                 class="btn-yellow-border inline-block text-center w-full mt-4"
                 >HIRE</a
@@ -51,7 +51,12 @@
                 <div class="max-w-[15rem]">
                   <h3 class="font-bold text-3xl mt-6">{{ item.title }}</h3>
                   <p class="mt-4 text-sm">{{ item.details }}</p>
-                  <button class="btn-yellow-border w-full mt-4">HIRE</button>
+                  <a
+                    href="https://app.smartsheet.com/b/form/af553c85a1fd4597bdc0f0d17b836c0b"
+                    target="_blank"
+                    class="btn-yellow-border w-full mt-4"
+                    >HIRE</a
+                  >
                 </div>
               </div>
             </div>
@@ -91,7 +96,7 @@ export default defineComponent({
         image: '/images/dumpsters.png',
       },
       {
-        title: '30 Cub Yards',
+        title: '30 Cubic Yards',
         details: '10-12 pick-up truck loads',
         image: '/images/dumpsters.png',
       },

@@ -25,7 +25,7 @@
         class="flex flex-col xl:flex-row justify-start w-2/3 xl:w-full xl:items-center mt-16 space-y-6 xl:space-y-0 xl:space-x-6"
       >
         <a
-          href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+          href="https://app.smartsheet.com/b/form/af553c85a1fd4597bdc0f0d17b836c0b"
           target="_blank"
           class="btn-yellow-bg flex justify-center items-center"
         >

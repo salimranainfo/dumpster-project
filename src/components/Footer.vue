@@ -71,7 +71,7 @@
         class="w-full flex flex-col justify-start items-center space-y-5 font-semibold text-sm"
       >
         <a
-          href="https://app.smartsheet.com/b/form/bfef837bf8664010840d520d617d6872"
+          href="https://app.smartsheet.com/b/form/af553c85a1fd4597bdc0f0d17b836c0b"
           target="_blank"
           class="btn-yellow-bg px-8"
           >ORDER NOW</a
@@ -129,7 +129,7 @@
             </svg>
           </span>
           <span>
-            <a href="tel:918-378-78-68">918-378-78-68</a>
+            <a href="tel:918-378-7868">918-378-7868 </a>
           </span>
         </span>
         <!-- <span class="text-sm flex justify-start items-center space-x-2 mt-4">
