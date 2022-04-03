@@ -3,7 +3,7 @@
     <div
       class="py-3 flex justify-between items-center max-w-[1160px] mx-auto px-4 xl:px-0"
     >
-      <button class="sm:hidden" @click="showMenu = true">
+      <button class="lg:hidden" @click="showMenu = true">
         <svg
           width="22"
           height="16"
@@ -39,7 +39,7 @@
       <span class="sm:hidden"></span>
 
       <nav
-        class="hidden sm:flex justify-end items-center space-x-6 font-semibold text-sm"
+        class="hidden lg:flex justify-end items-center space-x-6 font-semibold text-sm"
       >
         <a href="#how-we-work">How we work</a>
         <a href="#our-dumpsters">Our dumpsters</a>
@@ -47,22 +47,23 @@
         <a
           href="https://app.smartsheet.com/b/form/af553c85a1fd4597bdc0f0d17b836c0b"
           target="_blank"
-          class="btn-yellow-bg px-8"
+          class="btn-yellow-bg lg:px-8"
           >ORDER NOW</a
         >
         <a
           href="https://app.smartsheet.com/b/form/7883fbf73cb740329cedb224958d5171"
           target="_blank"
-          class="btn-yellow-bg px-8"
+          class="btn-yellow-bg lg:px-8"
           >Partner With Us</a
         >
+        <a href="tel:918-378-7868">918-378-7868 </a>
       </nav>
 
       <!-- Mobile Menu -->
       <transition name="menu">
         <div
           v-if="showMenu"
-          class="transform fixed top-0 left-0 w-screen h-screen bg-white flex sm:hidden justify-center items-center"
+          class="transform fixed top-0 left-0 w-screen h-screen bg-white flex lg:hidden justify-center items-center"
         >
           <nav
             class="flex flex-col justify-center items-center space-y-8 font-semibold"
@@ -82,6 +83,7 @@
               class="btn-yellow-bg px-8"
               >Partner With Us</a
             >
+            <a href="tel:918-378-7868">918-378-7868 </a>
           </nav>
 
           <!-- Close Button -->

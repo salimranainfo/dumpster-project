@@ -215,7 +215,7 @@
         </div>
 
         <span class="flex justify-between items-center mt-4 sm:mt-12 text-xs">
-          <span>Copyright © 2021</span>
+          <span>Copyright © {{ new Date().getFullYear() }}</span>
           <span>All rights reserved</span>
         </span>
       </div>
