@@ -6,7 +6,7 @@
       <h1
         class="text-6xl sm:text-5xl xl:text-6xl leading-[4.5rem] font-semibold"
       >
-        Need a Dumpster? Here we are.
+        Need a Dumpster? 918-378-7868.
       </h1>
 
       <p class="mt-6 sm:w-3/4 text-xl">
