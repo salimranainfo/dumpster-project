@@ -27,7 +27,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="icon" href="<%= BASE_URL %>logo.png" />
     <title>Swifty Dumpsters</title>
   </head>
   <body>
@@ -40,5 +40,26 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+
+    <script>
+      document
+        .querySelectorAll(
+          'a[href*="https://app.smartsheet.com/b/form/af553c85a1fd4597bdc0f0d17b836c0b"]'
+        )
+        .forEach(function (element) {
+          element.addEventListener('click', function () {
+            console.log('Testing testing')
+            ga.getAll().forEach((_a) =>
+              ga(
+                _a.get('name') + '.send',
+                'event',
+                'Category',
+                'Action',
+                'Label'
+              )
+            )
+          })
+        })
+    </script>
   </body>
 </html>
