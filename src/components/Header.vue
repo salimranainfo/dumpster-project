@@ -56,7 +56,7 @@
           class="btn-yellow-bg lg:px-8"
           >Partner With Us</a
         >
-        <a href="tel:918-378-7868">918-378-7868 </a>
+        <a :href="'tel:' + getPhoneNumber">{{ getPhoneNumber }}</a>
       </nav>
 
       <!-- Mobile Menu -->
@@ -83,7 +83,7 @@
               class="btn-yellow-bg px-8"
               >Partner With Us</a
             >
-            <a href="tel:918-378-7868">918-378-7868 </a>
+            <a :href="'tel:' + getPhoneNumber">{{ getPhoneNumber }}</a>
           </nav>
 
           <!-- Close Button -->
@@ -110,14 +110,35 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue'
+import { defineComponent, ref, computed } from 'vue'
+import { useRoute } from 'vue-router'
 
 export default defineComponent({
   setup() {
     const showMenu = ref(false)
 
+    const getPhoneNumber = computed(() => {
+      const route = useRoute()
+      const path = route.path
+
+      if (path.includes('dallas')) {
+        return '469-654-7756'
+      }
+
+      if (path.includes('philadelphia')) {
+        return '215-999-6493'
+      }
+
+      if (path.includes('charlotte')) {
+        return '704-610-5733'
+      }
+
+      return '918-378-7868'
+    })
+
     return {
       showMenu,
+      getPhoneNumber,
     }
   },
 })

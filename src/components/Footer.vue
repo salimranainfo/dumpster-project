@@ -129,7 +129,7 @@
             </svg>
           </span>
           <span>
-            <a href="tel:918-378-7868">918-378-7868 </a>
+            <a :href="'tel:' + getPhoneNumber">{{ getPhoneNumber }}</a>
           </span>
         </span>
         <!-- <span class="text-sm flex justify-start items-center space-x-2 mt-4">
@@ -224,11 +224,31 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, computed } from 'vue'
+import { useRoute } from 'vue-router'
 
 export default defineComponent({
   setup() {
-    return {}
+    const getPhoneNumber = computed(() => {
+      const route = useRoute()
+      const path = route.path
+
+      if (path.includes('dallas')) {
+        return '469-654-7756'
+      }
+
+      if (path.includes('philadelphia')) {
+        return '215-999-6493'
+      }
+
+      if (path.includes('charlotte')) {
+        return '704-610-5733'
+      }
+
+      return '918-378-7868'
+    })
+
+    return { getPhoneNumber }
   },
 })
 </script>
