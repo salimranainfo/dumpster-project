@@ -6,7 +6,7 @@
       <h1
         class="text-6xl sm:text-5xl xl:text-6xl leading-[4.5rem] font-semibold"
       >
-        Need a Dumpster? <a href="tel:704-610-5733">704-610-5733</a>.
+        Charlotte Dumpster Rental. <a href="tel:704-610-5733">704-610-5733</a>.
       </h1>
 
       <p class="mt-6 sm:w-3/4 text-xl">
