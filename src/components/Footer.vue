@@ -13,7 +13,7 @@
           dumpster rental, or visit us on social media!
         </p>
 
-        <div class="mt-8 flex justify-start items-center space-x-3">
+        <!-- <div class="mt-8 flex justify-start items-center space-x-3">
           <a href="#!">
             <svg
               width="32"
@@ -64,6 +64,29 @@
               />
             </svg>
           </a>
+        </div> -->
+
+        <div class="mt-6">
+          <!-- TrustBox widget - Micro Review Count -->
+          <div
+            class="trustpilot-widget"
+            data-locale="en-US"
+            data-template-id="5419b6a8b0d04a076446a9ad"
+            data-businessunit-id="627dd34d3b9981591a9ba12e"
+            data-style-height="24px"
+            data-style-width="100%"
+            data-theme="light"
+            data-min-review-count="10"
+            data-without-reviews-preferred-string-id="1"
+          >
+            <a
+              href="https://www.trustpilot.com/review/swiftydumpster.com"
+              target="_blank"
+              rel="noopener"
+              >Trustpilot</a
+            >
+          </div>
+          <!-- End TrustBox widget -->
         </div>
       </div>
 
